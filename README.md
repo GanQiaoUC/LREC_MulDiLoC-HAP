@@ -2,7 +2,7 @@
 ## Note: anonymous.4open.science does not display the contents of the Corpus&Data folder correctly. To access the full dataset, please download the entire repository as a ZIP file. All scripts and data, including MulDiLoC-HAP.csv, are included.
 
 ## MulDiLoC-HAP Corpus Description
-*MulDiLoC-HAP* (Multidialectal, Longitudinal Corpus of Human–AI Hybrid Production) is a large-scale corpus collected to investigate linguistic diversity, dialectal variation, and socio-cognitive dynamics in human–LLM hybrid language production. The corpus is freely available for academic and educational use but not for commercial purposes.
+*MulDiLoC-HAP* (Multidialectal, Longitudinal Corpus of Human–AI Hybrid Production) is a large-scale corpus collected to investigate linguistic diversity, dialectal variation, and socio-cognitive dynamics in human–LLM hybrid language production.
 
 The MulDiLoC-HAP corpus was built through a series of controlled experiments conducted with human participants and GPT 4.1. The design captures both natural and AI-assisted writing across five major English varieties: British, American, Canadian, Australian, and New Zealand English.
 ## Experimental Design
