@@ -66,7 +66,6 @@ Please refer to the table below for the meanings of each column in the **measure
 | `PPDensity` | Proportion of prepositional phrases in the text |
 | `Condition` | Writing condition (Nat = Natural; Sty = Stylistic LLM assistance; Phr = Phrasal; Par = Paragraph; GPT = General GPT-assisted) |
 | `Variety` | English variety (US = American; UK = British; CAN = Canadian; AUS = Australian; NZ = New Zealand) |
-| `consent` | Whether the participant consented to data sharing (Yes/No) |
 | `Topic` | Topic of the essay |
 
 ## Python and R Scripts
