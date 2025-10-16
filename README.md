@@ -16,12 +16,43 @@ The released dataset includes data from 682 participants who consented to share 
 ### CSV File Structure for the Corpus
 Please refer to the table below for the meanings of each column in the MulDiLoC-HAP.csv file.
 
+| **Column Name**     | **Description**                                                                                                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `ID`                | Unique identifier assigned to each participant                                                                                                                           |
+| `Condition`         | Writing condition (Nat = Natural writing; Sty = Stylistic LLM assistance; Phr = Phrasal LLM assistance; Par = Paragraph-level LLM assistance; GPT = GPT-generated texts) |
+| `Variety`           | English variety (US = American English; UK = British English; CAN = Canadian English; AUS = Australian English; NZ = New Zealand English)                                |
+| `Essay1`            | Essay from the first session                                                                                                                                             |
+| `Topic1`            | Topic for the first session                                                                                                                                              |
+| `Essay2`            | Essay from the second session                                                                                                                                            |
+| `Topic2`            | Topic for the second session                                                                                                                                             |
+| `Essay3`            | Essay from the third session                                                                                                                                             |
+| `Topic3`            | Topic for the third session                                                                                                                                              |
+| `Age`               | Participant’s age                                                                                                                                                        |
+| `Gender`            | Participant’s gender                                                                                                                                                     |
+| `education_org`     | Original education responses provided by participants                                                                                                                    |
+| `education`         | Education responses categorized by the research team                                                                                                                     |
+| `occupation`        | Original occupation responses provided by participants                                                                                                                   |
+| `ethnicity_org`     | Original ethnicity responses provided by participants                                                                                                                    |
+| `ethnicity`         | Ethnicity responses categorized by the research team                                                                                                                     |
+| `otherLanguages`    | Bilingualism or multilingualism status                                                                                                                                   |
+| `currentLocation`   | Participant’s current country of residence                                                                                                                               |
+| `previousLocations` | Locations where participants have lived for more than five years                                                                                                         |
+| `aiFamiliarity`     | Familiarity with AI (5-point scale)                                                                                                                                      |
+| `aiTools`           | AI tools used in the past three months (from predefined list)                                                                                                            |
+| `Otherai`           | Other AI tools used in the past three months (not on the list)                                                                                                           |
+| `aiFrequency`       | Frequency of AI use (7-point scale)                                                                                                                                      |
+| `aiPurposes`        | Primary purposes for using AI tools                                                                                                                                      |
+| `Otheraipurpose`    | Additional purposes of AI use (open-ended responses)                                                                                                                     |
+| `aiOpinion`         | Attitudes toward AI (5-point scale)                                                                                                                                      |
+| `consent`           | Whether the participant consented to data sharing (Yes/No)                                                                                                               |
+
+
 ### CSV File Structure for the LREC Paper’s Data
 Please refer to the table below for the meanings of each column in the measures.csv file.
 
 | **Column Name** | **Description** |
 |------------------|-----------------|
-| `fileName` | File name or unique identifier for each essay |
+| `ID` | Unique identifier assigned to each participant |
 | `Session` | Experimental session (e.g., 1 = first session, 2 = second session, 3 = posttest) |
 | `MLTD` | Measure of lexical diversity (Moving-Average Type–Token Ratio) |
 | `TotalTokens` | Total number of word tokens in the essay |
