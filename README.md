@@ -91,6 +91,6 @@ Please refer to the table below for the meanings of each column in the **nominal
 ## Python and R Scripts
 The **lexical.py** script extracts the lexical diversity measure (MLTD), and the **syntactic.py** script extracts eight measures of syntactic complexity. Both Python scripts are applied to the **MulDiLoC-HAP.csv** file.
 
-The **Analysis.r** script contains the full code for statistical modelling and data visualisation based on the **measures.csv** file.
+The **Analysis.r** script contains the full code for statistical modelling and data visualisation based on the **measures.csv**, **nominalisation_pos.csv**, **lexeme.csv** files.
 
 All scripts include detailed comments explaining key functions and implementation details.
