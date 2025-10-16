@@ -73,10 +73,20 @@ Please refer to the table below for the meanings of each column in the **measure
 Please refer to the table below for the meanings of each column in the **lexeme.csv** file.
 | Column Name | Description |
 |--------------|-------------|
+| 'Condition' | Writing condition (Nat = Natural writing; Sty = Stylistic LLM assistance; Phr = Phrasal LLM assistance; Par = Paragraph-level LLM assistance; GPT = GPT-generated texts) |
+| 'Variety' | English variety (US = American English; UK = British English; CAN = Canadian English; AUS = Australian English; NZ = New Zealand English) |
+| 'Type' | Type of lexemes included in the dataset |
+| 'Frequency' | Frequency of each lexeme type |
+
+Please refer to the table below for the meanings of each column in the **nominalisation_pos** file.
+| Column Name | Description |
+|--------------|-------------|
 | **Condition** | Writing condition (Nat = Natural writing; Sty = Stylistic LLM assistance; Phr = Phrasal LLM assistance; Par = Paragraph-level LLM assistance; GPT = GPT-generated texts) |
 | **Variety** | English variety (US = American English; UK = British English; CAN = Canadian English; AUS = Australian English; NZ = New Zealand English) |
-| **Type** | Type of lexemes included in the dataset |
-| **Frequency** | Frequency of each lexeme type |
+| **ConditionVariety** | Combined variable indicating both condition and English variety |
+| **POS** | Part of Speech category |
+| **Frequency** | Frequency count of each Part of Speech (POS) |
+
 
 ## Python and R Scripts
 The **lexical.py** script extracts the lexical diversity measure (MLTD), and the **syntactic.py** script extracts eight measures of syntactic complexity. Both Python scripts are applied to the **MulDiLoC-HAP.csv** file.
