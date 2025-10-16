@@ -92,4 +92,4 @@ The **lexical.py** script extracts the lexical diversity measure (MLTD), and the
 
 The **Analysis.r** script contains the full code for statistical modelling and data visualisation based on the **measures.csv**, **nominalisation_pos.csv**, **lexeme.csv** files.
 
-All scripts include detailed comments explaining key functions and implementation details.
+All scripts include comments explaining key functions and implementation details.
