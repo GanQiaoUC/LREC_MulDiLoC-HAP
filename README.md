@@ -53,7 +53,7 @@ Please refer to the table below for the meanings of each column in the **measure
 | **Column Name** | **Description** |
 |------------------|-----------------|
 | `ID` | Unique identifier assigned to each participant |
-| `Session` | Experimental session (e.g., 1 = first session, 2 = second session, 3 = posttest) |
+| `Session` | Experimental session (e.g., 1st = first session, 2nd = second session, 3rd = posttest) |
 | `MLTD` | Measure of lexical diversity (Moving-Average Type–Token Ratio) |
 | `TotalTokens` | Total number of word tokens in the essay |
 | `MeanClauseLength` | Average number of words per clause |
