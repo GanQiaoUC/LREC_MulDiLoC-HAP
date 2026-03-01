@@ -1,4 +1,4 @@
-# LREC_MulDiLoC-HAP
+# MulDiLoC-HAP
 
 ## MulDiLoC-HAP Corpus Description
 *MulDiLoC-HAP* (Multidialectal, Longitudinal Corpus of Human–AI Hybrid Production) is a large-scale corpus collected to investigate linguistic diversity, dialectal variation, and socio-cognitive dynamics in human–LLM hybrid language production.
